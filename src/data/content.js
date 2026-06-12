@@ -1,0 +1,152 @@
+export const personal = {
+    name: "Xinyu(Yuki) Shen",
+    title: "Data Science & Economics · University of Florida",
+    tagline: "Turning messy data\ninto clear decisions.",
+    bio: [
+      "I'm a Data Science and Economics student at the University of Florida, graduating in May 2027. I build projects at the intersection of statistical thinking, data analysis, and product-minded problem solving.",
+      "My work spans predictive modeling, geospatial analysis, database systems, simulation studies, and applied statistics. Always with a focus on making results clear, interpretable, and useful for real decision-making.",
+      "I'm pursuing product analyst, data analyst, and analytics-related roles, while also applying to master's programs in data science, biostatistics, statistics, and related fields. U.S. citizen — no sponsorship required.",
+    ],
+    email: "shenxinyu0116@gmail.com",
+    linkedin: "https://www.linkedin.com/in/xinyu-shen-uf",
+    github: "https://github.com/Syuki116",
+    resume: "/resume.pdf",
+    headshot: "/profile.jpg",
+  };
+  
+  export const skills = [
+    {
+      category: "Languages",
+      items: ["Python", "R", "SQL", "SAS", "SPSS"],
+    },
+    {
+      category: "Analytics & ML",
+      items: [
+        "Logistic Regression",
+        "Random Forest",
+        "LASSO",
+        "SMOTE",
+        "Simulation Studies",
+        "Hypothesis Testing",
+        "Model Evaluation",
+      ],
+    },
+    {
+      category: "Tools & Platforms",
+      items: [
+        "Tableau",
+        "R Shiny",
+        "ArcGIS Pro",
+        "MariaDB",
+        "HiPerGator",
+        "GitHub",
+      ],
+    },
+    {
+      category: "Domains",
+      items: [
+        "Product Analytics",
+        "Biostatistics",
+        "Geospatial Analysis",
+        "Database Systems",
+        "Economics",
+        "Data Visualization",
+      ],
+    },
+  ];
+  
+  export const projects = [
+    {
+      domain: "Clinical · Machine Learning",
+      title: "Stroke Risk Prediction App",
+      org: "FAU Biostatistics & Data Science Research Internship",
+      description:
+        "Built an interactive R Shiny application for stroke risk prediction. Cleaned and transformed clinical data, handled class imbalance with SMOTE, and compared logistic regression, LASSO, and random forest models using confusion matrix, precision, recall, and F1-score. Also produced descriptive and regression outputs in SAS/SPSS.",
+      tags: ["R Shiny", "SMOTE", "Logistic Regression", "LASSO", "Random Forest", "SAS/SPSS"],
+      link: "#",
+    },
+    {
+      domain: "Biostatistics · Research",
+      title: "Alpha-Level Sensitivity Analysis",
+      org: "UF Department of Biostatistics — Undergraduate Research",
+      description:
+        "Contributing to a simulation study examining how different alpha levels affect method performance across multiple data-generating scenarios. Using R and UF's HiPerGator computing environment to run experiments, generate plots, and compare statistical method stability.",
+      tags: ["R", "Simulation Study", "HiPerGator", "Statistical Computing"],
+      link: "#",
+    },
+    {
+      domain: "Geospatial · Remote Sensing",
+      title: "Urban Vegetation Change in Gainesville",
+      org: "GIS Coursework — University of Florida",
+      description:
+        "Analyzed urban vegetation and land-cover change in Gainesville using aerial imagery from 2008 and 2023. Applied Random Forest classification, Raster Calculator post-classification comparison, reclassification, and Zonal Statistics to interpret spatial change over time.",
+      tags: ["ArcGIS Pro", "Random Forest", "Remote Sensing", "Raster Analysis"],
+      link: "#",
+    },
+    {
+      domain: "Database · Systems",
+      title: "Relational Rental Management System",
+      org: "Database Systems — University of Florida",
+      description:
+        "Designed and implemented a MariaDB-based rental management system with a Python database handler. Built functions for customer management, item management, rentals, returns, waitlists, rental extensions, and inventory tracking.",
+      tags: ["MariaDB", "SQL", "Python", "Database Design"],
+      link: "#",
+    },
+  ];
+  
+  export const experience = [
+    {
+      date: "Summer 2025",
+      org: "FAU",
+      role: "Biostatistics & Data Science Research Intern",
+      description:
+        "Built predictive modeling workflows and an interactive R Shiny app for stroke risk analysis. Worked on data cleaning, feature engineering, class imbalance handling, model evaluation, and SAS/SPSS statistical analysis.",
+    },
+    {
+      date: "May 2026 – Present",
+      org: "UF",
+      role: "Undergraduate Researcher — Biostatistics",
+      description:
+        "Working on a simulation-based research project examining alpha-level sensitivity across statistical methods. Running R-based experiments, organizing simulation outputs, and summarizing results through plots and performance comparisons.",
+    },
+    {
+      date: "Expected May 2027",
+      org: "University of Florida",
+      role: "B.S. Data Science · B.A. Economics",
+      description:
+        "Double majoring in Data Science and Economics, with coursework in probability, mathematical statistics, regression, database systems, GIS, economics, statistical computing, and data visualization.",
+    },
+  ];
+  
+  export const beyondData = [
+    {
+      icon: "♩",
+      title: "Piano",
+      description:
+        "I enjoy piano because it combines structure, emotion, and pattern recognition. It reminds me that precision and creativity can work together.",
+    },
+    {
+      icon: "◈",
+      title: "Watercolor & Visual Design",
+      description:
+        "I’m drawn to watercolor and clean visual design. That interest also shapes how I think about dashboards, presentations, and data storytelling — clarity matters, but so does the way information feels to the audience.",
+    },
+    {
+      icon: "◯",
+      title: "Movement & Wellness",
+      description:
+        "I’m interested in Pilates and ballet-inspired movement as a way to build consistency, body awareness, and calm focus outside of academic and technical work.",
+    },
+    {
+      icon: "◎",
+      title: "Travel Planning",
+      description:
+        "I enjoy planning trips in detail: comparing options, structuring logistics, balancing constraints, and leaving room for flexibility. It feels surprisingly similar to product thinking.",
+    },
+    {
+      icon: "⬡",
+      title: "AI Tools & Product Thinking",
+      description:
+        "I’m curious about how people interact with AI tools and data products. I like thinking about what makes analytical tools intuitive, trustworthy, and useful in real workflows.",
+    },
+  ];
