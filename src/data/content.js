@@ -3,9 +3,7 @@ export const personal = {
     title: "Data Science & Economics · University of Florida",
     tagline: "Turning messy data\ninto clear decisions.",
     bio: [
-      "I'm a Data Science and Economics student at the University of Florida, graduating in May 2027. I build projects at the intersection of statistical thinking, data analysis, and product-minded problem solving.",
-      "My work spans predictive modeling, geospatial analysis, database systems, simulation studies, and applied statistics. Always with a focus on making results clear, interpretable, and useful for real decision-making.",
-      "I'm pursuing product analyst, data analyst, and analytics-related roles, while also applying to master's programs in data science, biostatistics, statistics, and related fields. U.S. citizen — no sponsorship required.",
+      "I'm a Data Science and Economics student at the University of Florida focused on using data to solve practical business and healthcare problems. I combine statistical analysis, SQL, predictive modeling, and data visualization to identify opportunities, evaluate trade-offs, and turn complex data into clear recommendations for decision-makers. U.S. citizen — no sponsorship required.",
     ],
     email: "shenxinyu0116@gmail.com",
     linkedin: "https://www.linkedin.com/in/xinyu-shen-uf",
@@ -72,16 +70,9 @@ export const personal = {
         "Healthcare Analytics",
       ],
       link: "https://public.tableau.com/app/profile/xinyu.shen3762/viz/FloridaHealthcareMarketOpportunityDashboard/Dashboard1",
+      linkLabel: "View Tableau Dashboard",
     },
-    {
-      domain: "Clinical · Machine Learning",
-      title: "Stroke Risk Prediction App",
-      org: "FAU Biostatistics & Data Science Research Internship",
-      description:
-        "Built an interactive R Shiny application for stroke risk prediction. Cleaned and transformed clinical data, handled class imbalance with SMOTE, and compared logistic regression, LASSO, and random forest models using confusion matrix, precision, recall, and F1-score. Also produced descriptive and regression outputs in SAS/SPSS.",
-      tags: ["R Shiny", "SMOTE", "Logistic Regression", "LASSO", "Random Forest", "SAS/SPSS"],
-      link: "#",
-    },
+
     {
       domain: "Biostatistics · Research",
       title: "Alpha-Level Sensitivity Analysis",
@@ -91,6 +82,28 @@ export const personal = {
       tags: ["R", "Simulation Study", "HiPerGator", "Statistical Computing"],
       link: "#",
     },
+
+    {
+      domain: "Clinical · Machine Learning",
+      title: "Stroke Risk Prediction and R Shiny Application",
+      org: "FAU Biostatistics & Data Science Research Internship",
+      description:
+        "Developed and evaluated stroke-risk prediction models using clinical data. Cleaned and transformed the dataset, addressed class imbalance with SMOTE, and compared logistic regression, LASSO, and random forest models using confusion matrix, precision, recall, and F1-score. Applied this modeling workflow to support a collaborative R Shiny application and produced additional descriptive and regression analyses in SAS/SPSS.",
+      tags: [
+        "R Shiny",
+        "SMOTE",
+        "Logistic Regression",
+        "LASSO",
+        "Random Forest",
+        "SAS/SPSS",
+      ],
+      image: "/fau-shiny-preview.png",
+      link: "https://syuki116.github.io/Shen_FAU_ML_Website/",
+      linkLabel: "View ML Analysis",
+      secondaryLink: "/fau-shiny-preview.png",
+      secondaryLinkLabel: "View R Shiny Preview",
+    },
+    
     {
       domain: "Geospatial · Remote Sensing",
       title: "Urban Vegetation Change in Gainesville",

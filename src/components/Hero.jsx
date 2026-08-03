@@ -21,13 +21,9 @@ export default function Hero() {
             </h1>
 
             <p className="text-lg font-light text-muted max-w-xl leading-relaxed mb-6 animate-fade-in-up delay-100">
-              I'm a Data Science and Economics student at the University of
-              Florida, interested in product analytics, data analysis, and
-              applied statistical work. I enjoy turning messy data into clear,
-              decision-ready insights through{" "}
+            I'm a Data Science and Economics student at the University of Florida focused on using data to solve practical business and healthcare problems. {" "}
               <span className="text-ink font-medium">
-                predictive modeling, geospatial analysis, database systems, and
-                applied statistics.
+              I combine statistical analysis, SQL, predictive modeling, and data visualization to identify opportunities, evaluate trade offs, and turn complex data into clear recommendations for decision makers.
               </span>
             </p>
 
