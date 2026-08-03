@@ -57,6 +57,23 @@ export const personal = {
   
   export const projects = [
     {
+      domain: "Healthcare Analytics · Market Strategy",
+      title: "Florida Healthcare Market Opportunity Analysis",
+      org: "Independent Portfolio Project",
+      description:
+        "Analyzed Florida's 67 counties to identify promising outpatient healthcare markets using population growth, healthcare need, provider supply, and household income data. Built a reproducible Python and SQL pipeline, developed three scenario-based scoring models, and created interactive Tableau and Streamlit dashboards for market comparison and decision support.",
+      tags: [
+        "Python",
+        "SQL",
+        "Tableau",
+        "Streamlit",
+        "Plotly",
+        "SQLite",
+        "Healthcare Analytics",
+      ],
+      link: "https://public.tableau.com/app/profile/xinyu.shen3762/viz/FloridaHealthcareMarketOpportunityDashboard/Dashboard1",
+    },
+    {
       domain: "Clinical · Machine Learning",
       title: "Stroke Risk Prediction App",
       org: "FAU Biostatistics & Data Science Research Internship",
@@ -96,26 +113,29 @@ export const personal = {
   
   export const experience = [
     {
-      date: "Summer 2025",
-      org: "FAU",
-      role: "Biostatistics & Data Science Research Intern",
-      description:
-        "Built predictive modeling workflows and an interactive R Shiny app for stroke risk analysis. Worked on data cleaning, feature engineering, class imbalance handling, model evaluation, and SAS/SPSS statistical analysis.",
-    },
-    {
-      date: "May 2026 – Present",
-      org: "UF",
-      role: "Undergraduate Researcher — Biostatistics",
-      description:
-        "Working on a simulation-based research project examining alpha-level sensitivity across statistical methods. Running R-based experiments, organizing simulation outputs, and summarizing results through plots and performance comparisons.",
-    },
-    {
       date: "Expected May 2027",
       org: "University of Florida",
       role: "B.S. Data Science · B.A. Economics",
       description:
         "Double majoring in Data Science and Economics, with coursework in probability, mathematical statistics, regression, database systems, GIS, economics, statistical computing, and data visualization.",
     },
+
+    {
+      date: "May 2026 – August 2026",
+      org: "University of Florida | Gainesville, FL",
+      role: "Undergraduate Researcher — Biostatistics",
+      description:
+        "Working on a simulation-based research project examining alpha-level sensitivity across statistical methods. Running R-based experiments, organizing simulation outputs, and summarizing results through plots and performance comparisons.",
+    },
+    
+    {
+      date: "Summer 2025",
+      org: "Florida Atlantic University | Boca Raton, FL",
+      role: "Biostatistics & Data Science Research Intern",
+      description:
+        "Built predictive modeling workflows and an interactive R Shiny app for stroke risk analysis. Worked on data cleaning, feature engineering, class imbalance handling, model evaluation, and SAS/SPSS statistical analysis.",
+    },
+
   ];
   
   export const beyondData = [
