@@ -55,6 +55,20 @@ export const personal = {
   
   export const projects = [
     {
+      domain: "AI Product · Interview Practice",
+      title: "MockMate AI",
+      org: "Gator Hack V 2026 — Team Project · Frontend & QA",
+      description:
+        "Co-built a personalized interview practice platform that turns a job description, résumé, and optional public GitHub project into a focused plan. Designed and tested the four-step experience from preparation through a real-time voice interview and evidence-based report, with feedback tied to transcript turns and inspected project files.",
+      tags: ["React", "Next.js", "TypeScript", "OpenAI API", "Voice AI", "Product Design"],
+      image: "/mockmate-preview.jpg",
+      link: "https://mockmate-tan.vercel.app/?mock=1",
+      linkLabel: "Try Interactive Demo",
+      secondaryLink: "https://github.com/JunhaoLiXD/mockmate",
+      secondaryLinkLabel: "View GitHub Repository",
+    },
+
+    {
       domain: "Healthcare Analytics · Market Strategy",
       title: "Florida Healthcare Market Opportunity Analysis",
       org: "Independent Portfolio Project",
